@@ -1,0 +1,109 @@
+* {
+    font-family: "poppins" , sans-serif;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    color: #17233D;
+    margin: 47px 00 00 32px;
+
+  }
+
+  .header-links {
+    cursor: pointer;
+    margin-right: 32px;
+  }
+
+  button {
+    width: 124px;
+    height: 51px;
+    margin-top: 32px;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background-color: #6FBF44;
+    border-radius: 5px;
+
+  }
+
+  .main-image {
+    margin-top: 116px;
+    margin-left: 121px;
+    display: inline-block;
+
+  }
+
+  .text {
+    display: inline-block;
+    margin-left: 85px;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+    width: 493px;
+    height: 164px;
+    margin-top: 80px;
+    margin-left: 84px;
+
+
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+    color: #4B505A;
+    margin-left: 84px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+  }
+
+#main-link {
+  width: 112px;
+  height: 27px;
+  margin-left: 84px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  color: #6FBF44;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width: 720px){
+
+  * {
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .header-links {
+    display: none;
+  }
+
+  img {
+    width: 312px;
+    height: 288px;
+  }
+  
+}
