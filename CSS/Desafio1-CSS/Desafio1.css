@@ -105,5 +105,10 @@
     width: 312px;
     height: 288px;
   }
+
+  button {
+    position: fixed;
+    right: 40px;
+  }
   
 }
